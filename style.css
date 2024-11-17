@@ -1,0 +1,80 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #333;
+  }
+  input[type="text"],
+  input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    border-color: #21283C;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color:transparent;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 15px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  table.crudTable {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  table.crudTable thead {
+    background-color: #21283C;
+    color: #ffffff;
+  }
+  
+  table.crudTable th,
+  table.crudTable td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  table.crudTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table.crudTable tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
